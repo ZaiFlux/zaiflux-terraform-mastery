@@ -1,6 +1,6 @@
 # 🧠 PHASE 5 — Terraform Variables (Reusability Core)
 
-## 💡 Why Variables Matte
+## 💡 Why Variables Matter
 
 Without variables:
 
