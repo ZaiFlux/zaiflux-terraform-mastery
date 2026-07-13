@@ -4,26 +4,7 @@ Phase 10 is where Terraform stops being **just writing infrastructure** and beco
 
 ---
 
-# What is Terraform State?
-
-When you create resources, Terraform saves information about them inside a file called:
-
-```text
-terraform.tfstate
-```
-
-E
-> **Think of Terraform State as Terraform's memory.**
-
----
-
-# Why State Is Important
-
-Terraform compares:
-
-| Current State | Desired Configuration |
-|---------------|-----------------------|
-| Existing Infrastructure | `main.tf` |
+# What i
 
 Example:
 
