@@ -4,32 +4,6 @@ Phase 10 is where Terraform stops being **just writing infrastructure** and beco
 
 ---
 
-# What i
-
-Example:
-
-Current State:
-
-```text
-EC2 = t2.micro
-```
-
-Configuration:
-
-```hcl
-instance_type = "t3.micro"
-```
-
-Terraform detects:
-
-```text
-t2.micro → t3.micro
-```
-
-Running:
-
-```bash
-terraform plan
 ```
 
 shows the proposed change.
