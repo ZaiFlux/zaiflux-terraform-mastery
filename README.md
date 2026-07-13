@@ -5,15 +5,6 @@
 AWS Resources Created
     │
     ▼
-terraform.tfstate Updated
-By default:
-
-```text
-terraform.tfstate
-```
-
-is stored on your local computer.
-
 Example:
 
 ### Laptop A
