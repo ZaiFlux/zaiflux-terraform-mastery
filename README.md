@@ -12,35 +12,7 @@ When you create resources, Terraform saves information about them inside a file 
 terraform.tfstate
 ```
 
-Example:
-
-```hcl
-resource "aws_s3_bucket" "logs" {
-  bucket = "my-logs-bucket"
-}
-```
-
-Terraform stores:
-
-- Resource name (`aws_s3_bucket.logs`)
-- Bucket ID
-- ARN
-- Attributes
-- Dependencies
-
-inside:
-
-```text
-terraform.tfstate
-```
-
-Without state, Terraform would have no idea:
-
-- What already exists
-- What it created before
-- What should be updated
-- What should be deleted
-
+E
 > **Think of Terraform State as Terraform's memory.**
 
 ---
