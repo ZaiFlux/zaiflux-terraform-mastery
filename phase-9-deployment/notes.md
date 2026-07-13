@@ -14,7 +14,7 @@ VPC
       └── Outputs
 ```
 
-> **Note:** No EC2 instances yet. The goal is to focus purely on
+> **Note:** No EC2 instances yet. The goal is to focus purely on:
 >
 > - `terraform init`
 > - `terraform plan`
