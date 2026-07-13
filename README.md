@@ -6,14 +6,6 @@ AWS Resources Created
     │
     ▼
 terraform.tfstate Updated
-```
-
-Every `terraform apply` updates the state file.
-
----
-
-# Local State Problem
-
 By default:
 
 ```text
