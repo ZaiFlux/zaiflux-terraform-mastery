@@ -1,26 +1,5 @@
 # Phase 10 – Terraform State Management
-
-Phase 10 is where Terraform stops being **just writing infrastructure** and becomes **managing infrastructure safely in production**.
-
----
-
-```
-
-shows the proposed change.
-
-Without state:
-
-Terraform cannot compare anything.
-
----
-
-# State Workflow
-
-```text
-main.tf
-    │
-    ▼
-terraform apply
+\
     │
     ▼
 AWS Resources Created
